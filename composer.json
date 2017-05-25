@@ -1,0 +1,30 @@
+{
+    "name": "coderscoop/laravel-ldap",
+    "description": "Easy to use laravel ldap api",
+    "keywords": ["laravel", "ldap", "coderscoop"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SamyOteroGlez",
+            "email": "otero.glez.samy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "behat/behat": "^3.3",
+        "behat/mink": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coderscoop\\LaravelLdap\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coderscoop\\LaravelLdap\\Tests\\": "test/"
+        }
+    }
+}
