@@ -9,6 +9,11 @@ namespace Coderscoop\LaravelLdap;
  */
 class Ldap 
 {
+    public static function newInstance()
+    {
+        return new Ldap;
+    }
+    
     public static function dummy()
     {
         return 'dummy';
