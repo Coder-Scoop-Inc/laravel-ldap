@@ -297,7 +297,7 @@ class Ldap
     }
 
     /**
-     * Set standar configuration
+     * Set standard configuration
      * 
      * @param string $cn
      * @param string $dc
