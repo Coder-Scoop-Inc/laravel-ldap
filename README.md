@@ -34,6 +34,9 @@ Easy to use ldap api for laravel
 
  - And run `composer install` or `composer update`
 
+### Requirements
+
+ - `php ldap module` is require to use this package
 
 ### Usage
 
